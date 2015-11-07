@@ -1,0 +1,442 @@
+﻿body, *
+{
+    margin:0;
+    padding:0;
+}
+
+a img
+{
+    border:0;
+}
+
+html
+{
+    overflow: hidden;
+    width: 800px;
+    height: 480px;
+}
+
+body
+{
+    background:black;
+    font:11px Arial;
+    color:#a5bfc7;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    width: 800px;
+    height: 480px;
+    border:none;
+}
+
+/* IE 6 empty link bg images unnecessary when not in standards mode */
+.logo
+{
+    position:absolute;
+    display:block;
+    margin:3px 0 0 298px;
+    padding:100px 200px 0 0;
+}
+
+.launcher_link
+{
+    position:absolute;
+    display:block;
+    width:278px;
+    height:427px;
+    margin:24px 0 0 19px;
+}
+
+.top_panel_int a
+{
+    display:block;
+    width:158px;
+    height:30px;
+}
+
+.top_panel_int a:hover
+{
+    background-position:bottom;
+}
+
+.copyright
+{
+    position:absolute;
+    top:450px;
+    left:22px;
+    font:9px Trebuchet MS;
+    text-transform:uppercase;
+}
+
+.copyright div
+{
+    padding:14px 0 0 50px;
+    color:black;
+    white-space:nowrap;
+}
+
+.copyright div.shadow0
+{
+    color:#696969;
+    position:absolute;
+    left:1px;
+    top:-1px; z-index:5;
+}
+
+.copyright div.shadow1
+{
+    color:black;
+    position:absolute;
+    left:2px;
+    top:-2px;
+    z-index:4;
+}
+
+.copyright div.shadow2
+{
+    color:black;
+    position:absolute;
+    left:0px;
+    top:-2px;
+    z-index:3;
+}
+.copyright div.shadow3
+{
+    color:black;
+    position:absolute;
+    left:2px;
+    top:0px;
+    z-index:2;
+}
+
+.copyright a:hover
+{
+    border:1px solid #BE9935;
+}
+
+/* Standard Styles */
+
+#launcher_banner
+{
+    position:absolute;
+    margin:99px 0 0 309px;
+}
+
+.news_box
+{
+    position:absolute;
+    top:299px;
+    left:319px;
+    width:445px;
+}
+
+.news, .community
+{
+    position:relative;
+    width:445px;
+    line-height:15px;
+}
+
+.news
+{
+    position:relative;
+    top:0px;
+}
+
+.community
+{
+    position:relative;
+    top:51px;
+}
+
+.news .title, .community .title
+{
+    position:absolute;
+    top:-51px;
+    left:0;
+    width:445px;
+    height:80px;
+    z-index:1;
+}
+
+.news .contents, .community .contents
+{
+    position:relative;
+    top:0;
+    left:35px;
+    width:410px;
+    z-index:10000;
+}
+
+a
+{
+    color:#a5bfc7;
+    text-decoration:none;
+    -moz-outline:none;
+}
+
+a:hover
+{
+    color:white !important;
+}
+
+a:visited
+{
+    color:#598cb8;
+}
+
+.more a:hover
+{
+    color:#B6E4F4
+}
+
+.section_icon
+{
+    float:left;
+    width:40px;
+    margin-right:8px;
+}
+
+.items
+{
+    float:left;
+    width:360px;
+}
+
+.date
+{
+    float:right;
+}
+
+
+/* Patchnotes Styles */
+
+.patchnotes
+{
+    border:1px;
+    width:654px;
+    height:210px;
+    overflow:auto;
+    position:absolute;
+    margin:172px 0 0 76px;
+    color:white;
+    font-size:11px;
+    padding-right:10px;
+}
+
+.patchnotes a
+{
+    color:#73b9ef;
+}
+
+.patchnotes p
+{
+    padding:10px 0;
+}
+
+.patchnotes ul
+{
+    padding:0 0 15px 0;
+}
+
+.patchnotes h3
+{
+    margin:15px 0 4px;
+}
+
+.patch_back
+{
+    width:109px;
+    height:41px;
+    display:block;
+    position:absolute;
+    margin:395px 0 0 350px;
+}
+
+
+/* Trial Style */
+.error_text
+{
+    position:absolute;
+    margin:146px 0 0 326px;
+    width:415px;
+    font:12px Calibri, Arial;
+    color:white;
+    line-height:22px;
+}
+.trial_text
+{
+    position:absolute;
+    margin:143px 0 0 355px;
+    width:367px;
+    font:12px Calibri, Arial;
+    color:white;
+    line-height:18px;
+}
+
+.trial_text h3
+{
+    font-size:15px;
+    margin-bottom:10px;
+    color:#0a6186;
+    font-weight:bold;
+    text-align:left;
+}
+
+.trial_text p
+{
+    margin-bottom:15px;
+    color:#620d06;
+    font-weight:bold;
+    text-align:justify;
+}
+
+.trial_text a
+{
+    color:#0a6186;
+    text-decoration:underline;
+}
+
+.trial_text a:hover
+{
+    color:#cc0000 !important;
+    text-decoration:underline;
+}
+
+a.upgrade_btn
+{
+    display:block;
+    width:334px;
+    height:94px;
+    position:absolute;
+    left:374px;
+    top:341px;
+    background-position:0 0;
+    outline:none;
+}
+
+a.upgrade_btn:hover
+{
+    background-position:0 -94px;
+}
+
+a.upgrade_btn:active
+{
+    background-position:0 -188px;
+}
+
+.rt-padding h3
+{
+    margin-bottom:16px;
+}
+
+/* Error Style */
+
+.error_text table
+{
+    height:265px;
+}
+
+.error_text b
+{
+    color:#fe3318;
+    font-size:14px;
+    display:block;
+    margin:6px 0;
+}
+
+.trial_text
+{
+    font:11px Arial, Helvetica, sans-serif;
+    color:white;
+    line-height:17px;
+}
+
+.trial_text h3
+{
+    font-size:13px;
+    letter-spacing:-0.05em;
+}
+
+.rt-padding
+{
+    padding:10px 20px 0;
+}
+
+#launcher_banner 
+{ 
+    position:absolute; 
+    margin:75px 0 0 320px; 
+}
+
+.news .title
+{
+    background:url(<?php echo $style['title_news']; ?>) no-repeat 0 0;
+}
+
+.community .title 
+{
+    background:url(<?php echo $style['title_comm']; ?>) no-repeat 0 0;
+}
+
+.patchnotes li
+{
+    padding:3px 0 10px 10px;
+    margin-left:5px;
+    list-style-type:none;
+    background:url(<?php echo $style['puce']; ?>) 0 9px no-repeat;
+}
+
+.item
+{
+    background:url(<?php echo $style['puce']; ?>) 0 6px no-repeat;
+    padding-left:8px;
+}
+
+.top_panel
+{
+    background:url(<?php echo $style['top_panel']; ?>) 50% bottom no-repeat;
+    width:209px;
+    position:absolute;
+    margin:24px 0 0 570px;
+}
+
+.top_panel_int
+{
+    background:url(<?php echo $style['top_panel_top']; ?>) 50% top no-repeat;
+    padding:9px 0 8px 26px;
+}
+
+.copyright a
+{
+    width:44px;
+    height:24px;
+    display:block;
+    position:absolute;
+    background:url(<?php echo $style['copyright']; ?>) bottom left no-repeat;
+    z-index:6;
+    border:1px solid #091A2A;
+}
+
+.more
+{
+    position:absolute;
+    top:-31px;
+    right:2px;
+    line-height:10px;
+    color:#949494;
+    text-transform:uppercase;
+    font:8px Arial;
+    text-align:center;
+    background:url(<?php echo $style['btn_l']; ?>) no-repeat;
+    padding-left:8px;
+    z-index:10000;
+}
+
+.more a
+{
+    color:#949494;
+    display:block;
+    padding:5px 8px 5px 0;
+    background:url(<?php echo $style['btn']; ?>) right 0  no-repeat;
+    z-index:10000;
+}

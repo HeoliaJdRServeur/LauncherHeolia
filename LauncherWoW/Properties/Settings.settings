@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LauncherWoW.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="autoClose" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="cleanCache" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="empltWow" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Wow.exe</Value>
+    </Setting>
+    <Setting Name="cacheDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Cache\\WDB\\frFR</Value>
+    </Setting>
+    <Setting Name="urlServeur" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">www.tonserveur.fr</Value>
+    </Setting>
+    <Setting Name="dataDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data\\</Value>
+    </Setting>
+    <Setting Name="realmlist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">set realmlist www.tonserveur.fr</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
